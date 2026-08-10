@@ -2,9 +2,6 @@
 app.py — ChargeAgent: Enterprise EV Demand & Charging Infrastructure Forecasting
 Streamlit Application
 
-Reproduces the exact prediction pipeline from mandeep-ieee.ipynb using only
-saved .pkl artifacts. No retraining occurs at inference time.
-
 Run with:
     streamlit run app.py
 """
@@ -222,7 +219,7 @@ with st.sidebar:
 # ── GLOBAL HEADER ──
 st.markdown(
     '<div class="header-banner">'
-    '<span class="header-badge">IEEE Research</span>'
+    '<span class="header-badge"> </span>'
     '<span class="header-badge">AI-Powered</span>'
     '<span class="header-badge">India EV Market</span>'
     '<div class="header-title">⚡ ChargeAgent</div>'
