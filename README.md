@@ -30,10 +30,6 @@ manpreet interface/
 ├── metadata.pkl            # Test metrics, states, categories, historical averages
 ├── forecast_config.pkl     # Train/val/test/live date boundaries
 └── series_history.pkl      # Last 12 known monthly values per series (170 series)
-```
-
-> The original training notebook (`manpreet-ieee.ipynb`) is **not included and not needed**.  
-> All model knowledge is already captured in the `.pkl` files above.
 
 ---
 
