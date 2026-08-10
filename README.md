@@ -12,7 +12,7 @@ and the notebook is not required to run this application.
 ## 📁 Project Files
 
 ```
-mandeep interface/
+manpreet interface/
 ├── app.py                  # Main Streamlit application (production-ready)
 ├── utils.py                # Core inference engine & Plotly chart utilities
 ├── style.css               # Custom light-theme enterprise dashboard CSS
@@ -32,7 +32,7 @@ mandeep interface/
 └── series_history.pkl      # Last 12 known monthly values per series (170 series)
 ```
 
-> The original training notebook (`mandeep-ieee.ipynb`) is **not included and not needed**.  
+> The original training notebook (`manpreet-ieee.ipynb`) is **not included and not needed**.  
 > All model knowledge is already captured in the `.pkl` files above.
 
 ---
@@ -52,12 +52,13 @@ Follow these steps exactly — works on Windows, macOS, and Linux.
 > ✔ During installation on Windows — check **"Add Python to PATH"**
 
 ---
+## Streamlit Cloud Interface: https://ev-sales-prediction-63rjaa4oegdnf2m8hwk9rx.streamlit.app/
 
 ### 📁 Step 1 — Copy the Project Folder
 
-Copy the **mandeep interface** folder to your system. Only the files listed above are needed — the original training notebook is **not required**.
+Copy the **manpreet interface** folder to your system. Only the files listed above are needed — the original training notebook is **not required**.
 
-> ⚠️ All 8 `.pkl` files are required. The app will not start if any are missing.
+> ⚠️ All '.pkl' files are required. The app will not start if any are missing.
 
 ---
 
@@ -69,7 +70,7 @@ Copy the **mandeep interface** folder to your system. Only the files listed abov
 
 **macOS / Linux:**
 ```bash
-cd "/path/to/mandeep interface"
+cd "/path/to/manpreet interface"
 ```
 
 ---
@@ -118,21 +119,21 @@ Press `Ctrl + C` in the terminal.
 
 ### Windows
 ```cmd
-cd "C:\path\to\mandeep interface"
+cd "C:\path\to\manpreet interface"
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 ### macOS
 ```bash
-cd "/path/to/mandeep interface"
+cd "/path/to/manpreet interface"
 pip3 install -r requirements.txt
 streamlit run app.py
 ```
 
 ### Linux
 ```bash
-cd "/path/to/mandeep interface"
+cd "/path/to/manpreet interface"
 pip3 install -r requirements.txt
 streamlit run app.py
 ```
