@@ -3,7 +3,7 @@
 **Enterprise-grade Streamlit application for regional EV demand forecasting and
 charging infrastructure planning across Indian states.**
 
-Built for IEEE publication research. Reproduces the exact prediction pipeline
+Reproduces the exact prediction pipeline
 from the training notebook using only pre-trained `.pkl` artifacts — no retraining,
 and the notebook is not required to run this application.
 
